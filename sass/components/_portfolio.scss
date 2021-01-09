@@ -5,8 +5,8 @@
 }
 
 .button-portfolio {
-  color: var(--primary-text-color);
-  background-color: var(--main-bg-color);
+  color: $primary-text-color;
+  background-color: $main-bg-color;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -18,9 +18,8 @@
   border: none;
   padding: 6px 22px;
 
-  transition: color 250ms var(--timing-animation),
-    background-color 250ms var(--timing-animation),
-    box-shadow 250ms var(--timing-animation);
+  transition: color 250ms $timing-animation,
+    background-color 250ms $timing-animation, box-shadow 250ms $timing-animation;
 }
 
 .container-button .item {
@@ -37,13 +36,13 @@
 }
 
 .button-portfolio:focus {
-  color: var(--accent-color);
+  color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button-portfolio:hover {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  background-color: $accent-color;
+  color: $primary-white-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -68,8 +67,7 @@
   background: rgba(33, 150, 243, 0.9);
 
   transform: translateY(100%);
-  transition: transform 250ms var(--timing-animation),
-    opacity 250ms var(--timing-animation);
+  transition: transform 250ms $timing-animation, opacity 250ms $timing-animation;
 }
 
 .portfolio-title a:hover .fallout-menu {
@@ -88,7 +86,7 @@
   font-weight: 400;
   letter-spacing: 0.03em;
 
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 .section-porfolio {
@@ -106,7 +104,7 @@
 }
 
 .cards h2 {
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -117,7 +115,7 @@
 }
 
 .cards p {
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
@@ -135,7 +133,7 @@
 .portfolio-title {
   display: flex;
   flex-wrap: wrap;
-  background: var(--primary-white-color);
+  background: $primary-white-color;
 }
 
 .portfolio-title .link {
@@ -181,7 +179,7 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   margin-bottom: 50px;
 }
 
@@ -189,12 +187,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--icons-color);
+  color: $icon-color;
   width: 170px;
   height: 90px;
-  border: 1px solid var(--icon-color);
+  border: 1px solid $icon-color;
   border-radius: 4px;
-  transition: border-color 250ms var(--timing-animation);
+  transition: border-color $timing-animation;
 }
 
 .client-list {
@@ -205,11 +203,11 @@
 .client-icon {
   fill: currentColor;
   color: #afb1b8;
-  transition: fill 250ms var(--timing-animation);
+  transition: fill 250ms $timing-animation;
 }
 
 .client-link:hover .client-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .section-clients .client-item {
@@ -223,7 +221,7 @@
 
 .client-link:hover,
 .client-link:focus {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 /* clients */
 

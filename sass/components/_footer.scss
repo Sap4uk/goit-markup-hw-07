@@ -1,14 +1,14 @@
 /* address */
 
 .address .link {
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .address-link {
-  color: var(--transparency-color);
+  color: $transparency-color;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -24,7 +24,7 @@
 }
 
 footer {
-  background: var(--second-bg-color);
+  background: $second-bg-color;
   padding: 60px 0 60px 0;
 }
 
@@ -63,7 +63,7 @@ footer {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   margin-bottom: 20px;
   display: flex;
 }
@@ -72,7 +72,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -85,12 +85,12 @@ footer {
 
 .footer-link:hover,
 .footer-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .footer-link {
   background: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms var(--timing-animation);
+  transition: background-color 250ms $timing-animation;
 }
 
 .footer-social {
@@ -120,7 +120,7 @@ footer {
   letter-spacing: 0.03em;
 
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   margin-bottom: 20px;
 
   display: flex;
@@ -139,8 +139,8 @@ footer {
   padding: 10px 29px;
   height: 50px;
 
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: $primary-white-color;
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   border-radius: 4px;
@@ -161,7 +161,7 @@ footer {
 }
 
 .subs-button:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .subs-form {
@@ -170,8 +170,8 @@ footer {
   margin-right: 12px;
   padding: 15px 16px;
 
-  background-color: var(--second-bg-color);
-  color: var(--primary-white-color);
+  background-color: $second-bg-color;
+  color: $primary-white-color;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -186,7 +186,7 @@ footer {
   line-height: 1.25;
   align-items: center;
   letter-spacing: 0.03em;
-  color: var(--transparency-color);
+  color: $transparency-color;
 }
 
 .mail-form {

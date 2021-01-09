@@ -34,14 +34,9 @@ textarea {
 }
 
 .form-field:focus-within > .form-icon {
-  color: var(--accent-color);
-  transition: color 250ms var(--timing-animation);
+  color: $accent-color;
+  transition: color 250ms $timing-animation;
 }
-
-/* .form-input:focus ~ .form-icon {
-  color: var(--accent-color);
-  transition: color 250ms var(--timing-animation);
-} */
 
 .form-icon {
   fill: currentColor;
@@ -57,7 +52,7 @@ textarea {
   height: 40px;
   border-radius: 4px;
 
-  transition: border 250ms var(--timing-animation);
+  transition: border 250ms $timing-animation;
 }
 
 .form-input:focus {
@@ -72,7 +67,7 @@ textarea {
   line-height: 1.16;
   letter-spacing: 0.01em;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 
   margin-bottom: 4px;
 }
@@ -93,7 +88,7 @@ textarea {
 
   height: 120px;
 
-  transition: border 250ms var(--timing-animation);
+  transition: border 250ms $timing-animation;
 }
 
 .comment-area:focus {
@@ -120,7 +115,7 @@ textarea {
   letter-spacing: 0.03em;
   height: 24px;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .checkbox {
@@ -135,13 +130,13 @@ textarea {
 }
 
 .checkbox:checked + .conditions-icon::before {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  background-image: url(../images/icon/icon\check.svg);
+  background-color: $accent-color;
+  border-color: $accent-color;
+  background-image: url(../images/icon/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
-  transition: background-color 250ms var(--timing-animation),
-    border-color 250ms var(--timing-animation);
+  transition: background-color 250ms $timing-animation,
+    border-color 250ms $timing-animation;
 }
 
 .conditions-icon::before {
@@ -166,7 +161,7 @@ textarea {
   height: 24px;
   text-decoration-line: underline;
 
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .button-submit {
@@ -182,9 +177,8 @@ textarea {
   letter-spacing: 0.06em;
   padding: 10px 54px;
 
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-
+  color: $primary-white-color;
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;

@@ -14,14 +14,14 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--second-bg-color);
+  background-color: $second-bg-color;
   padding: 200px 0;
 }
 
 .hero h1 {
   margin-top: 0;
   margin-bottom: 40px;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -35,8 +35,8 @@
 }
 
 .button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: $primary-white-color;
+  background-color: $accent-color;
 
   font-weight: 700;
   font-size: 16px;
@@ -53,5 +53,5 @@
 }
 .button:focus,
 .button:hover {
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }

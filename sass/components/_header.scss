@@ -16,11 +16,11 @@ header {
   font-family: raleway, sans-serif;
 }
 .logo-studio {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .studio {
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 /* site nav*/
 
@@ -31,23 +31,23 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  transition: color 250ms var(--timing-animation);
+  transition: color 250ms $timing-animation;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav {
@@ -63,17 +63,17 @@ header {
 
 .link-nav {
   display: block;
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  transition: color 250ms var(--timing-animation);
+  transition: color 250ms $timing-animation;
 }
 .link-nav:hover,
 .link-nav:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .link-nav .icon {
@@ -89,7 +89,7 @@ header {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .address-nav {

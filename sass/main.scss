@@ -1,12 +1,15 @@
 @import "./base/modern-normalize";
 @import "./utils/variables";
 @import "./base/base";
-@import "./base/container";
+
+@import "./utils/fonts";
+
 @import "./components/header";
 @import "./components/hero";
 @import "./components/section";
 @import "./components/section-about";
 @import "./components/section-team";
+@import "./components/regular-clients";
 @import "./components/footer";
 @import "./components/portfolio";
 @import "./components/modal";

@@ -83,14 +83,14 @@ footer {
   align-items: baseline;
 }
 
-.footer-link:hover,
-.footer-link:focus {
-  background-color: $accent-color;
-}
-
 .footer-link {
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms $timing-animation;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
 .footer-social {
@@ -146,6 +146,10 @@ footer {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+
+  &:hover {
+    background-color: $accent-color;
+  }
 }
 
 .subs-button::after {
@@ -158,10 +162,6 @@ footer {
   background-image: url(../images/icon/icon-send.svg);
 
   margin-left: 10px;
-}
-
-.subs-button:hover {
-  background-color: $accent-color;
 }
 
 .subs-form {

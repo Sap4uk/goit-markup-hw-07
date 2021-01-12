@@ -6,14 +6,25 @@ header {
 
 /* logo */
 
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   color: black;
 
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  font-family: raleway, sans-serif;
+  font-family: "Raleway700";
 }
 .logo-studio {
   color: $accent-color;
@@ -33,21 +44,22 @@ header {
 
   color: $primary-text-color;
 
-  font-weight: 500;
+  // font-family: "Roboto500";
+  // // font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   transition: color 250ms $timing-animation;
-}
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: $accent-color;
-}
+  &.link:hover,
+  &.link:focus {
+    color: $accent-color;
+  }
 
-.site-nav .link.current {
-  color: $accent-color;
+  &.link.current {
+    color: $accent-color;
+  }
 }
 
 .site-nav {
@@ -64,16 +76,19 @@ header {
 .link-nav {
   display: block;
   color: $title-text-color;
-  font-weight: 500;
+
+  // font-family: "Roboto500";
+  // // font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   transition: color 250ms $timing-animation;
-}
-.link-nav:hover,
-.link-nav:focus {
-  color: $accent-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .link-nav .icon {
@@ -101,18 +116,6 @@ header {
 
 .address-nav .item + .item {
   margin-left: 50px;
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
 }
 
 /* site nav*/

@@ -107,10 +107,11 @@ textarea {
 }
 
 .conditions-label {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+font-family: "Roboto400";
+
+// font-weight: 400;
+  
+font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   height: 24px;
@@ -153,8 +154,10 @@ textarea {
 }
 
 .form-conditions > a {
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Roboto400";
+
+  // font-weight: 400;
+  
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -165,8 +168,10 @@ textarea {
 }
 
 .button-submit {
-  font-style: normal;
-  font-weight: 700;
+ font-family: "Roboto700";
+
+  // font-weight: 700;
+ 
   font-size: 16px;
   line-height: 1.8;
   height: 50px;

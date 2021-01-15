@@ -341,6 +341,61 @@ template {
   display: none;
 }
 
+/* raleway-700 - latin */
+@font-face {
+  font-family: "Raleway700";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/raleway-v18-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/raleway-v18-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/raleway-v18-latin-700.woff2") format("woff2"), url("../../fonts/raleway-v18-latin-700.woff") format("woff"), url("../../fonts/raleway-v18-latin-700.ttf") format("truetype"), url("../../fonts/raleway-v18-latin-700.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto400";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/roboto-v20-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v20-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("../../fonts/roboto-v20-latin-regular.woff") format("woff"), url("../../fonts/roboto-v20-latin-regular.ttf") format("truetype"), url("../../fonts/roboto-v20-latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto500";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../fonts/roboto-v20-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v20-latin-500.woff2") format("woff2"), url("../../fonts/roboto-v20-latin-500.woff") format("woff"), url("../../fonts/roboto-v20-latin-500.ttf") format("truetype"), url("../../fonts/roboto-v20-latin-500.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto700";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/roboto-v20-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v20-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v20-latin-700.woff2") format("woff2"), url("../../fonts/roboto-v20-latin-700.woff") format("woff"), url("../../fonts/roboto-v20-latin-700.ttf") format("truetype"), url("../../fonts/roboto-v20-latin-700.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-900 - latin */
+@font-face {
+  font-family: "Roboto900";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../fonts/roboto-v20-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v20-latin-900.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v20-latin-900.woff2") format("woff2"), url("../../fonts/roboto-v20-latin-900.woff") format("woff"), url("../../fonts/roboto-v20-latin-900.ttf") format("truetype"), url("../../fonts/roboto-v20-latin-900.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
 body {
   background-color: #ffffff;
   color: #212121;
@@ -376,28 +431,6 @@ a {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* raleway-700 - latin */
-@font-face {
-  font-family: "Raleway700";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/raleway-v18-latin-700.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/raleway-v18-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v18-latin-700.woff2") format("woff2"), url("../fonts/raleway-v18-latin-700.woff") format("woff"), url("../fonts/raleway-v18-latin-700.ttf") format("truetype"), url("../fonts/raleway-v18-latin-700.svg#Raleway") format("svg");
-  /* Legacy iOS */
-}
-
-/* roboto-500 - latin */
-@font-face {
-  font-family: "Roboto500";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/roboto-v20-latin-500.eot");
-  /* IE9 Compat Modes */
-  src: local(""), url("../fonts/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin-500.woff") format("woff"), url("../fonts/roboto-v20-latin-500.ttf") format("truetype"), url("../fonts/roboto-v20-latin-500.svg#Roboto") format("svg");
-  /* Legacy iOS */
 }
 
 /* header */
@@ -561,7 +594,7 @@ header {
 .button {
   color: #ffffff;
   background-color: #2196f3;
-  font-weight: 700;
+  font-family: "Roboto700";
   font-size: 16px;
   line-height: 1.87;
   -webkit-box-align: center;
@@ -591,7 +624,7 @@ header {
 
 .section-title h3 {
   color: #212121;
-  font-weight: 700;
+  font-family: "Roboto700";
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -602,7 +635,7 @@ header {
 
 .section-title p {
   color: #757575;
-  font-weight: 400;
+  font-family: "Roboto400";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -692,7 +725,7 @@ header {
 }
 
 .list-thumb > p {
-  font-weight: 700;
+  font-family: "Roboto700";
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
@@ -715,7 +748,7 @@ header {
 }
 
 .team-title {
-  font-weight: 700;
+  font-family: "Roboto700";
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -725,7 +758,7 @@ header {
 }
 
 .team-list h3 {
-  font-weight: 500;
+  font-family: "Roboto500";
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -735,7 +768,7 @@ header {
 }
 
 .team-list p {
-  font-weight: 400;
+  font-family: "Roboto400";
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -818,7 +851,7 @@ header {
 }
 
 .regular-clients {
-  font-weight: 700;
+  font-family: "Roboto700";
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -883,7 +916,7 @@ header {
 /* address */
 .address .link {
   color: #ffffff;
-  font-weight: 400;
+  font-family: "Roboto500";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -891,7 +924,7 @@ header {
 
 .address-link {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
+  font-family: "Roboto900";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -945,8 +978,7 @@ footer {
 
 .footer-title {
   height: 16px;
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Roboto900";
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -1015,8 +1047,7 @@ footer {
 /* subscribe */
 .subscribe-title {
   height: 16px;
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Roboto700";
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -1029,8 +1060,7 @@ footer {
 }
 
 .subs-button {
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Roboto700";
   font-size: 16px;
   line-height: 1.87;
   -webkit-box-align: center;
@@ -1081,8 +1111,7 @@ footer {
 }
 
 .subs-form::-webkit-input-placeholder {
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Roboto400";
   font-size: 16px;
   line-height: 1.25;
   -webkit-box-align: center;
@@ -1092,8 +1121,7 @@ footer {
 }
 
 .subs-form:-ms-input-placeholder {
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Roboto400";
   font-size: 16px;
   line-height: 1.25;
   -ms-flex-align: center;
@@ -1103,8 +1131,7 @@ footer {
 }
 
 .subs-form::-ms-input-placeholder {
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Roboto400";
   font-size: 16px;
   line-height: 1.25;
   -ms-flex-align: center;
@@ -1114,8 +1141,7 @@ footer {
 }
 
 .subs-form::placeholder {
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Roboto400";
   font-size: 16px;
   line-height: 1.25;
   -webkit-box-align: center;
@@ -1149,7 +1175,7 @@ footer {
 .button-portfolio {
   color: #212121;
   background-color: #f5f4fa;
-  font-weight: 500;
+  font-family: "Roboto500";
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -1240,16 +1266,16 @@ a:focus .fallout-menu {
 }
 
 .portfolio-title .fallout-text {
+  font-family: "Roboto400";
   font-size: 18px;
   line-height: 1.5;
-  font-weight: 400;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .cards h2 {
   color: #212121;
-  font-weight: 700;
+  font-family: "Roboto700";
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -1260,7 +1286,7 @@ a:focus .fallout-menu {
 
 .cards p {
   color: #757575;
-  font-weight: 400;
+  font-family: "Roboto400";
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -1492,9 +1518,7 @@ textarea {
 }
 
 .conditions-label {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Roboto400";
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -1535,8 +1559,7 @@ textarea {
 }
 
 .form-conditions > a {
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Roboto400";
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -1547,8 +1570,7 @@ textarea {
 }
 
 .button-submit {
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Roboto700";
   font-size: 16px;
   line-height: 1.8;
   height: 50px;

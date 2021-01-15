@@ -7,7 +7,9 @@
 }
 .section-title h3 {
   color: $primary-text-color;
-  font-weight: 700;
+
+  font-family: "Roboto700";
+  // font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -18,7 +20,10 @@
 
 .section-title p {
   color: $title-text-color;
-  font-weight: 400;
+
+  font-family: "Roboto400";
+
+  // font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

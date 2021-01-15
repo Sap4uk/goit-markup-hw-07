@@ -3,18 +3,18 @@
 .address .link {
   color: $primary-white-color;
 
-  font-family: "Roboto500";
+  font-family: $main_font;
 
-  // font-weight: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .address-link {
   color: $transparency-color;
-  font-family: "Roboto900";
+  font-family: $main_font;
 
-  // font-weight: 400;
+  font-weight: 400;
 
   font-size: 14px;
   line-height: 1.71;
@@ -64,8 +64,8 @@ footer {
 .footer-title {
   height: 16px;
 
-  font-family: "Roboto900";
-  // font-weight: 700;
+  font-family: $main_font;
+  font-weight: 700;
 
   font-size: 14px;
   line-height: 1.14;
@@ -122,8 +122,8 @@ footer {
 .subscribe-title {
   height: 16px;
 
-  font-family: "Roboto700";
-  // font-weight: 700;
+  font-family: $main_font;
+  font-weight: 700;
 
   font-size: 14px;
   line-height: 1.14;
@@ -137,8 +137,8 @@ footer {
 }
 
 .subs-button {
-  font-family: "Roboto700";
-  // font-weight: 700;
+  font-family: $main_font;
+  font-weight: 700;
 
   font-size: 16px;
   line-height: 1.87;
@@ -191,8 +191,8 @@ footer {
 }
 
 .subs-form::placeholder {
-  font-family: "Roboto400";
-  // font-weight: 400;
+  font-family: $main_font;
+  font-weight: 400;
 
   font-size: 16px;
   line-height: 1.25;

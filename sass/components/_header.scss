@@ -24,7 +24,7 @@ header {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  font-family: "Raleway700";
+  font-family: "Raleway";
 }
 .logo-studio {
   color: $accent-color;
@@ -44,8 +44,9 @@ header {
 
   color: $primary-text-color;
 
-  font-family: "Roboto500";
-  // // font-weight: 500;
+  font-family: $main_font;
+  font-weight: 500;
+
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -77,12 +78,12 @@ header {
   display: block;
   color: $title-text-color;
 
-  font-family: "Roboto500";
+  font-family: $main_font;
 
-  // // font-weight: 500;
+  font-weight: 500;
 
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   transition: color 250ms $timing-animation;

@@ -10,9 +10,9 @@
 }
 
 .team-title {
-  font-family: "Roboto700";
+  font-family: $main_font;
 
-  // font-weight: 700;
+  font-weight: 700;
 
   font-size: 36px;
   line-height: 1.16;
@@ -23,7 +23,7 @@
 }
 
 .team-list h3 {
-  font-family: "Roboto500";
+  font-family: $main_font;
 
   // font-weight: 500;
 
@@ -35,9 +35,9 @@
   margin-bottom: 10px;
 }
 .team-list p {
-  font-family: "Roboto400";
+  font-family: $main_font;
 
-  // font-weight: 400;
+  font-weight: 400;
 
   font-size: 16px;
   line-height: 1.18;

@@ -346,7 +346,7 @@ template {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../../fonts/raleway-v18-cyrillic/raleway-v18-cyrillic-700.woff2") format("woff2"), url("../../fonts/raleway-v18-cyrillic/raleway-v18-cyrillic-700.woff") format("woff");
+  src: local(""), url("../fonts/raleway-v18-cyrillic/raleway-v18-cyrillic-700.woff2") format("woff2"), url("../fonts/raleway-v18-cyrillic/raleway-v18-cyrillic-700.woff") format("woff");
 }
 
 /* roboto-regular - latin */
@@ -354,7 +354,7 @@ template {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-regular.woff2") format("woff2"), url("../../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-regular.woff") format("woff");
+  src: local(""), url("../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-regular.woff") format("woff");
 }
 
 /* roboto-500 - latin */
@@ -362,7 +362,7 @@ template {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-500.woff2") format("woff2"), url("../../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-500.woff") format("woff");
+  src: local(""), url("../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-500.woff") format("woff");
 }
 
 /* roboto-700 - latin */
@@ -370,7 +370,7 @@ template {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-700.woff2") format("woff2"), url("../../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-700.woff") format("woff");
+  src: local(""), url("../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-700.woff") format("woff");
 }
 
 /* roboto-900 - latin */
@@ -378,10 +378,9 @@ template {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-900.woff2") format("woff2"), url("../../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-900.woff") format("woff");
+  src: local(""), url("../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v20-cyrillic/roboto-v20-cyrillic-900.woff") format("woff");
 }
 
-/* roboto-regular - cyrillic */
 body {
   background-color: #ffffff;
   color: #212121;

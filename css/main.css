@@ -385,7 +385,7 @@ body {
   background-color: #ffffff;
   color: #212121;
   font-style: normal;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 *,
@@ -468,7 +468,7 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
   color: #212121;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -503,7 +503,7 @@ header {
 .link-nav {
   display: block;
   color: #757575;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -567,7 +567,7 @@ header {
   margin-top: 0;
   margin-bottom: 40px;
   color: #ffffff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -583,7 +583,7 @@ header {
 .button {
   color: #ffffff;
   background-color: #2196f3;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -614,7 +614,7 @@ header {
 
 .section-title h3 {
   color: #212121;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -626,7 +626,7 @@ header {
 
 .section-title p {
   color: #757575;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -717,7 +717,7 @@ header {
 }
 
 .list-thumb > p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -741,7 +741,7 @@ header {
 }
 
 .team-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -752,7 +752,7 @@ header {
 }
 
 .team-list h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -762,7 +762,7 @@ header {
 }
 
 .team-list p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -846,7 +846,7 @@ header {
 }
 
 .regular-clients {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -912,7 +912,7 @@ header {
 /* address */
 .address .link {
   color: #ffffff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -921,7 +921,7 @@ header {
 
 .address-link {
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -976,7 +976,7 @@ footer {
 
 .footer-title {
   height: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1046,7 +1046,7 @@ footer {
 /* subscribe */
 .subscribe-title {
   height: 16px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1060,7 +1060,7 @@ footer {
 }
 
 .subs-button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -1112,7 +1112,7 @@ footer {
 }
 
 .subs-form::-webkit-input-placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -1123,7 +1123,7 @@ footer {
 }
 
 .subs-form:-ms-input-placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -1134,7 +1134,7 @@ footer {
 }
 
 .subs-form::-ms-input-placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -1145,7 +1145,7 @@ footer {
 }
 
 .subs-form::placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -1180,7 +1180,7 @@ footer {
 .button-portfolio {
   color: #212121;
   background-color: #f5f4fa;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -1272,7 +1272,7 @@ a:focus .fallout-menu {
 }
 
 .portfolio-title .fallout-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
@@ -1282,7 +1282,7 @@ a:focus .fallout-menu {
 
 .cards h2 {
   color: #212121;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -1294,7 +1294,7 @@ a:focus .fallout-menu {
 
 .cards p {
   color: #757575;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
@@ -1397,7 +1397,7 @@ textarea {
 
 .modal-title {
   margin-bottom: 12px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -1458,7 +1458,7 @@ textarea {
 }
 
 .form-label {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -1491,7 +1491,7 @@ textarea {
 }
 
 .comment-area::-webkit-input-placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -1500,7 +1500,7 @@ textarea {
 }
 
 .comment-area:-ms-input-placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -1509,7 +1509,7 @@ textarea {
 }
 
 .comment-area::-ms-input-placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -1518,7 +1518,7 @@ textarea {
 }
 
 .comment-area::placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -1527,7 +1527,7 @@ textarea {
 }
 
 .conditions-label {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -1569,7 +1569,7 @@ textarea {
 }
 
 .form-conditions > a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -1581,7 +1581,7 @@ textarea {
 }
 
 .button-submit {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
